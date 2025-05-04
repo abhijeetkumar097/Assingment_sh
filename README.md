@@ -27,6 +27,7 @@ A Spring Boot REST API for managing incidents with severity levels, backed by Mo
 
 ### Using Docker Compose v2
 
+```
 ```bash
 docker compose up
 ```
@@ -34,7 +35,6 @@ docker compose up
 
 ```bash
 docker-compose up
-```
 ```
 
 > 📝 This will build the Spring Boot application, start MongoDB, and launch Mongo Express.
