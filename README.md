@@ -29,7 +29,7 @@ A Spring Boot REST API for managing incidents with severity levels, backed by Mo
 
 ```bash
 docker compose up
-````
+```
 ### Using Docker Compose v1
 
 ```bash
