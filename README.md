@@ -1,4 +1,4 @@
-````markdown
+```markdown
 # 🚀 Assignment Incident Management API
 
 A Spring Boot REST API for managing incidents with severity levels, backed by MongoDB and containerized using Docker and Docker Compose.
