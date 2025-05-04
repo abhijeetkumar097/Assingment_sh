@@ -22,7 +22,6 @@ A Spring Boot REST API for managing incidents with severity levels, backed by Mo
 - Docker installed  
 - Docker Compose (v1 or v2)  
 
----
 
 ## 📦 How to Build and Run
 
@@ -31,7 +30,6 @@ A Spring Boot REST API for managing incidents with severity levels, backed by Mo
 ```bash
 docker compose up
 ````
-
 ### Using Docker Compose v1
 
 ```bash
