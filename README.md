@@ -24,6 +24,7 @@ A Spring Boot REST API for managing incidents with severity levels, backed by Mo
 
 
 ## 📦 How to Build and Run
+* Run in base directory where you pulled this github repository
 
 ### Using Docker Compose v2
 
@@ -45,7 +46,10 @@ docker-compose up
 
 * **Backend API**: [http://localhost:8080](http://localhost:8080)
 
+* To access MongoDB in GUI Form
 * **Mongo Express UI**: [http://localhost:8081](http://localhost:8081)
+
+  CREDENTIALS ARE HANDELED AUTOMATICALLY
   Credentials:
 
   * Username: `admin`
@@ -83,6 +87,11 @@ docker-compose up
 }
 ```
 
+### ✅ `GET /incidents/{id}`
+
+* Get an incident by its ObjectId.
+* ObjectId can be seen under the incident collection inside assignment database using mongo-express running on port 8081
+
 ### ✅ `DELETE /incidents/{id}`
 
 * Delete an incident by its ObjectId.
@@ -96,13 +105,13 @@ To stop and remove all containers, networks, and volumes:
 ### Docker Compose v2
 
 ```bash
-docker compose down -v
+docker compose down
 ```
 
 ### Docker Compose v1
 
 ```bash
-docker-compose down -v
+docker-compose down
 ```
 
 To remove unused Docker resources:
