@@ -108,5 +108,5 @@ docker-compose down -v
 To remove unused Docker resources:
 
 ```bash
-docker system prune -af
+docker system prune
 ```
