@@ -35,6 +35,7 @@ docker compose up
 ```bash
 docker-compose up
 ```
+```
 
 > 📝 This will build the Spring Boot application, start MongoDB, and launch Mongo Express.
 
@@ -108,5 +109,4 @@ To remove unused Docker resources:
 
 ```bash
 docker system prune -af
-```
 ```
